@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<script src = "https://maps.googleapis.com/maps/api/js"></script>
+<script>
+         function loadMap() {
+			
+            var mapOptions = {
+               center:new google.maps.LatLng(43.072932, -89.398658), zoom:16,
+               mapTypeId:google.maps.MapTypeId.ROADMAP
+            };
+				
+            var map = new google.maps.Map(document.getElementById("map"),mapOptions);
+         }
+      </script>
+<meta charset="utf-8">
+<title>page3</title>
+<link href="page3.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body  onload = "loadMap()">
+   <header>
+    <div class="dropdown">
+    	<button class="fa fa-bars fa-lg"></button>
+        <a>&nbsp&nbsp Contact</a>
+        <div class="dropdown-content">
+    	    <a href="page1.html">Home</a>
+		    <a href="page2.html">Portfolio</a>
+		    <a href="page3.html">Contact</a>
+		</div>
+	   </div>
+	
+    <div class="social_media">
+    	<a href="https://www.facebook.com/kevin.zhang.12532364" class="fa fa-facebook-square fa-lg"></a>
+    	<a href="https://www.instagram.com/kw_kkevin/?hl=en" class="fa fa-instagram fa-lg"></a>
+    	<a href="https://weibo.com/u/2429320047?refer_flag=1001030101_&ssl_rnd=1510206885.9502&is_all=1" class="fa fa-weibo fa-lg"></a>
+    	<a href="https://www.linkedin.com/in/kevin-zhang-0214bb134" class="fa fa-linkedin-square fa-lg"></a> 
+    </div>
+   </header>
+   
+   <div class="content">
+   <center><h1>Contact Me</h1></center>
+   <center><ul class="icons">
+   <li><span class="fa-stack fa-4x">
+     <i class="fa fa-circle fa-stack-2x"></i>
+     <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+     <p class="outline">E-MAIL</p>
+     <p class="details">zhang95kevin@gmail.com</p>
+   </span></li>
+   <li><span class="fa-stack fa-4x">
+     <i class="fa fa-circle fa-stack-2x"></i>
+     <i class="fa fa-mobile fa-stack-1x fa-inverse"></i>
+     <p class="outline">PHONE</p>
+     <p class="details">(734)507-****</p>
+   </span></li>
+   <li><span class="fa-stack fa-4x">
+     <i class="fa fa-circle fa-stack-2x"></i>
+     <i class="fa fa-weixin fa-stack-1x fa-inverse"></i>
+     <p class="outline">WECHAT</p>
+     <p class="details">173357937</p>
+   </span></li>
+   <li><span class="fa-stack fa-4x">
+     <i class="fa fa-circle fa-stack-2x"></i>
+     <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+     <p class="outline">TWITTER</p>
+     <p class="details">@kw_kkevin</p>
+   </span></li>
+   <li><span class="fa-stack fa-4x">
+     <i class="fa fa-circle fa-stack-2x"></i>
+     <i class="fa fa-skype fa-stack-1x fa-inverse"></i>
+     <p class="outline">SKYPE</p>
+     <p class="details">airkevin111</p>
+   </span></li>
+   </ul></center>
+   <center><p class="find">WHERE TO FIND ME</p></center>
+   <center><div id = "map" style = "width:1100px; height:800px; filter: grayscale(80%);"></div></center>
+   </div>
+   <footer>
+     <p class="fter">Copyrigth © Kevin Zhang 2017. All Rights Reserved</p>
+   </footer>
+</body>
+</html>

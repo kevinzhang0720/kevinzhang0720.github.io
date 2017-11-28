@@ -1,0 +1,187 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+	/*background-color: mediumvioletred;*/
+    animation: changing 35s infinite;
+} 
+@keyframes changing {
+      0%   {background: azure;}
+      10%  {background: mediumvioletred;}
+      20%  {background: purple;}
+      30%  {background: red;}
+	  40%  {background: orange;}
+	  50%  {background: yellow;}
+	  60%  {background: mediumspringgreen ;}
+	  70%  {background: lightcoral;}
+	  80%  {background: pink;}
+	  90%  {background: wheat;}
+	  100% {background: gold;}
+}
+a{
+	font-family: "Arial", Arial, sans-serif;
+	font-size: 13px;
+}
+header{
+	background-color: white;
+	box-shadow: 0px 5px 50px 0px rgba(0,0,0,0.3);
+}
+.fa-bars{
+	background-color: black;
+	color: white;
+	padding: 20px;
+	margin-left: 500px;
+	border: none;
+	cursor: pointer;
+}
+.dropdown{
+	position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+	margin-left: 500px;
+}
+.dropdown-content a{
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+.dropdown-content a:hover{
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown:hover .fa-bars{
+    background-color: black;
+	color: white;
+}
+
+.social_media{
+	float: right;
+	margin-right: 500px;
+}
+.fa-facebook-square{
+	border: none;
+	background-color: white;
+	
+	padding: 20px 10px;
+	text-decoration: none;
+	color: black;
+}
+.fa-facebook-square:hover{
+	background-color: black;
+	color: white;
+	text-decoration: none;
+}
+.fa-instagram{
+	border: none;
+	background-color: white;
+	padding: 20px 10px;
+	text-decoration: none;
+	color: black;
+}
+.fa-instagram:hover{
+	background-color: black;
+	color: white;
+	text-decoration: none;
+}
+.fa-weibo{
+	border: none;
+	background-color: white;
+	padding: 20px 10px;
+	text-decoration: none;
+	color: black;
+}
+.fa-weibo:hover{
+	background-color: black;
+	color: white;
+	text-decoration: none;
+}
+.fa-linkedin-square{
+	border: none;
+	background-color: white;
+	
+	padding: 20px 10px;
+	text-decoration: none;
+	color: black;
+}
+.fa-linkedin-square:hover{
+	background-color: black;
+	color: white;
+	text-decoration: none;
+}
+
+.content{
+	width: 1200px;
+	height: 1500px;	
+	padding-top: 30px;
+	margin-top: 100px;
+	padding-bottom: 30px;
+	margin-bottom: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	background-image: url(123.png);
+	box-shadow: 10px 10px 50px 0px rgba(0,0,0,0.3);
+}
+
+h1{
+	font-family: "Helvetica";
+	font-size: 130px;
+	letter-spacing: -2px;
+}
+
+.outline{
+	margin-top: 90px;
+	font-size: 20px;
+	font-family: "Helvetica";
+	color: red;
+}
+.details{
+	font-size: 15px;
+	margin-top: -110px;
+	text-decoration: underline
+}
+.fa-circle{
+	color: gray;
+}
+li{
+	display: inline;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.find{
+	font-family: "Helvetica";
+	font-size: 28px;
+	margin-top: 150px;
+	text-decoration: underline;
+}
+#map{
+	
+}
+footer { 
+	position: fixed;
+	width: 100%;
+    background-color: white;
+	bottom: 0;
+}
+.fter{  
+  font-family: "Arial", Arial, sans-serif;
+  font-size: 13px;
+  text-align: center; 
+  color: black;  
+}
